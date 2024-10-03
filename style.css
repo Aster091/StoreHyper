@@ -1,0 +1,79 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header Section */
+.header {
+    background-image: url('your-background-image.jpg'); /* Replace with your uploaded image name */
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+/* Store Section */
+.store {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.rank {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.rank h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.rank p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.rank button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rank button:hover {
+    background-color: #e74c3c;
+}
+
+/* Payment Section */
+.payment-section {
+    margin-top: 30px;
+}
+
+.payment-section h2 {
+    color: #333;
+}
+
+.payment-section img {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+}
